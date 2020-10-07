@@ -1,0 +1,109 @@
+.ProfileCard{
+    display: flex;
+    margin: 0 0 1.25rem 0;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 12px 24px 0 hsl(220, 15%, 88%), 0 3px 9px hsl(220, 15%, 94%);
+}
+
+p {
+    margin: 0.2rem;
+    align-self: flex-start;
+    color: 272c35;
+}
+
+p.Profile-name {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.profile-avatar{
+    object-fit: cover;
+    min-width: 20%;
+    align-self: center;
+}
+
+.profile-avatar img{
+    border-radius: 50%;
+    border: 2px solid #bfc3ca;
+    padding: 1rem;
+    vertical-align: middle;
+
+}
+
+.card-body{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow:30;
+}
+
+.hiddent-part.show {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.padding-bottom{
+    padding-bottom: 1rem;
+}
+
+.expand-btn {
+    padding: 2rem 0 0 0;
+    opacity: 0.6;
+    flex-grow: 2;
+    font-size: 1.5rem;
+}
+
+.profile-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+.profile-login{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 46% );
+}
+
+.profile-bio{
+    color: hsl(220, 0%, 23%);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+input
+{
+    margin: 1rem 1rem 0 0;
+    width: 20%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid darkgray;
+}
+
+li {
+    padding: 0.5rem;
+    background: darkgray;
+    margin: 0 1rem 0 0;
+    color: black;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+input.add-tag-input {
+    width: auto;
+}

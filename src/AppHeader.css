@@ -1,0 +1,9 @@
+.App-header{
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(220, 15%, 18%);
+    color: hsl(220, 0%, 98%);
+}
